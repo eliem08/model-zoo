@@ -56,7 +56,7 @@ Please refer to the `required_packages_version` section in `configs/metadata.jso
 
 ```
 pip install fastremap==1.15.0 roifile==2024.5.24 natsort==8.4.0
-pip install --no-deps cellpose
+pip install --no-deps cellpose==3.0.8
 ```
 
 Important Note: if your environment already contains OpenCV, installing `cellpose` may lead to conflicts and produce errors such as:
@@ -75,7 +75,7 @@ Make sure to replace 3.* with your actual Python version (e.g., 3.10).
 Alternatively, you can install `cellpose` without its dependencies to avoid potential conflicts:
 
 ```
-pip install --no-deps cellpose
+pip install --no-deps cellpose==3.0.8
 ```
 
 ### Execute training

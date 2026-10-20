@@ -1,7 +1,8 @@
 {
     "schema": "https://github.com/Project-MONAI/MONAI-extra-test-data/releases/download/0.8.1/meta_schema_20240725.json",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "changelog": {
+        "0.4.2": "pin cellpose to 3.0.8 in the README install commands, matching required_packages_version (cellpose 4 removed masks_to_flows)",
         "0.4.1": "modernize type annotations and formatting without changing behavior",
         "0.4.0": "rebrand as VISTA-2D, enhance metadata and documentation",
         "0.3.1": "update to huggingface hosting",
